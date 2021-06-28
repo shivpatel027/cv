@@ -1,5 +1,8 @@
 body {
-  background-color: #d0e8f2;
+  background-color: #c4dbd7;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Yellowtail', cursive;
+
 }
 
 hr {
@@ -9,12 +12,58 @@ hr {
   border-color: grey;
   border-width: 5px;
   width: 5%;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Yellowtail', cursive;
 }
 
 h1{
   color: #66BFBF;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Yellowtail', cursive;
 }
 
 h3{
   color: #66BFBF;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Yellowtail', cursive;
+}
+
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  font-weight: 100;
+  padding: 10px;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  border: solid #337FED 1px;
+  background: #3DE3CB;
+  background-image: -webkit-linear-gradient(top, #3DE3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #3DE3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #3DE3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #3DE3CB, #2BC4AD);
+  background-image: -webkit-gradient(to bottom, #3DE3CB, #2BC4AD);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
 }
